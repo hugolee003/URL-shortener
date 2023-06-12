@@ -2,8 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        inter: ['Inter'],
+        raleway: ['Raleway'],
+      }
+    },
   },
   plugins: [],
+  darkMode: 'media'
 }
 
