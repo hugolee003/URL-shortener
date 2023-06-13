@@ -46,12 +46,12 @@ function showTab(event, tabId) {
     const responseContainer = document.getElementById("response-container");
     const newMessage = document.createElement("div");
     newMessage.innerHTML = message;
-    newMessage.classList.add("bg-gray-200", "p-4", "rounded-md", "mt-4"); // Add Tailwind CSS classes for styling
+    newMessage.classList.add("bg-white", "p-4", "rounded-md", "mt-4"); // Add Tailwind CSS classes for styling
     responseContainer.appendChild(newMessage);
     responseContainer.classList.remove("hidden");
   }
 
-  // loader effectgit status
+  // loader effect
   const loader = document.getElementById('loader');
   const shortenButton = document.getElementById('shortenButton');
   

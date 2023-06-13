@@ -3,10 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- external css -->
     <link href="../dist/output.css" rel="stylesheet" />
+    <!-- project fonts -  Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Project fonts - Inter -->
   </head>
   <body class="font-inter dark:">
-
+    <img src="../images/beams.jpg" alt="" class="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2 -z-10" width="1508" />
     <!-- loader section -->
     <div id="loader" class="h-1 bg-blue-500 w-0 absolute top-0 left-0 transition-all duration-2000"></div>    
    
@@ -39,7 +45,7 @@
     <!-- body section -->
     <div class="container mx-auto px-6 py-12">
       <h2 class="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight dark:text-white text-center">Cutting Long Links <span class="underline decoration-wavy text-blue-500">Short</span> 🔗</h2>
-      <p class="mt-4 text-lg text-center text-slate-600 font-raleway font-semibold">
+      <p class="mt-4 text-lg text-center text-slate-600 font-raleway font-semibold ">
         Scissors is a URL shortener and QR code generator tool that you can use
         to shorten your long URL's and generate QR codes for your URL's.
       </p>
@@ -47,7 +53,7 @@
 
     <!-- Tabs section -->
     <div
-      class="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700"
+      class="text-sm font-medium text-center text-gray-500 border-b border-gray-300 dark:text-gray-400 dark:border-gray-700"
     >
       <ul class="flex flex-wrap -mb-px justify-evenly">
         <li class="mr-2">
@@ -78,7 +84,7 @@
         <input
           type="text"
           placeholder="Paste link here" id="url-input"
-          class="border border-gray-300 rounded px-4 py-2 mx-4 w-96 focus:outline-none focus:border-blue-500 ml-2 mb-2 sm:mb-0"
+          class="border border-gray-300 rounded px-4 py-2 font-inter mx-4 w-96 focus:outline-none focus:border-blue-500 ml-2 mb-2 sm:mb-0"
         />
         <a
           href="#" id="submit-button"
