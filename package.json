@@ -4,7 +4,7 @@
   "description": "a simple url shortener and QR code generator",
   "main": "/dist/output.css",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "build": "npm install"
   },
   "author": "Ugochukwu Egeonu",
   "license": "ISC",
