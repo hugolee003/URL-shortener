@@ -686,6 +686,11 @@ video {
   width: 100%;
 }
 
+.w-max{
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .max-w-md{
   max-width: 28rem;
 }
